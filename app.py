@@ -87,7 +87,7 @@ def fetch_player_info(uid):
     """Fetch player info from external API"""
     try:
         # Internal key set to Flash as requested
-        api_url = f"https://flash-stats-info.vercel.app/info?uid={uid}&region={region}&key=Flash"
+        api_url = f"https://flash-player-info.vercel.app/info?uid={uid}&key=Flash"
         response = requests.get(api_url, timeout=20)
         
         if response.status_code != 200:
