@@ -110,7 +110,7 @@ def home():
         "success": True,
         "message": "Free Fire Level Info API",
         "endpoints": {
-            "/level/<uid>?key=Flash": "Get level progress for player",
+            "/level/3419823759?key=Flash": "Get level progress for player",
             "/levels": "Get all level EXP requirements"
         },
         "credit": "@juli_dvrma"
